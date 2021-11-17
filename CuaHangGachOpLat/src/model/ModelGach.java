@@ -11,7 +11,7 @@ package model;
  */
 public class ModelGach {
     private String magach, tengach, madv, soluong, macl, matl,mancc, anh;
-    private byte trangthai;
+    private boolean trangthai;
     
     public ModelGach(String magach, String tengach, String madv, String soluong, String macl, String matl, String mancc, String anh) {
         this.magach = magach;
