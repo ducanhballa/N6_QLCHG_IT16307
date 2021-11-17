@@ -9,10 +9,11 @@ package model;
  *
  * @author Administrator
  */
-public class Gach1 {
+public class ModelGach {
     private String magach, tengach, madv, soluong, macl, matl,mancc, anh;
-
-    public Gach1(String magach, String tengach, String madv, String soluong, String macl, String matl, String mancc, String anh) {
+    private byte trangthai;
+    
+    public ModelGach(String magach, String tengach, String madv, String soluong, String macl, String matl, String mancc, String anh) {
         this.magach = magach;
         this.tengach = tengach;
         this.madv = madv;
